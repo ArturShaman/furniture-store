@@ -1,0 +1,39 @@
+C:\Users\artur\source\repos\furniture store\furniture store\bin\Debug\furniture store.exe.config
+C:\Users\artur\source\repos\furniture store\furniture store\bin\Debug\furniture store.exe
+C:\Users\artur\source\repos\furniture store\furniture store\bin\Debug\furniture store.pdb
+C:\Users\artur\source\repos\furniture store\furniture store\obj\Debug\MainWindow.g.cs
+C:\Users\artur\source\repos\furniture store\furniture store\obj\Debug\App.g.cs
+C:\Users\artur\source\repos\furniture store\furniture store\obj\Debug\furniture store_MarkupCompile.cache
+C:\Users\artur\source\repos\furniture store\furniture store\obj\Debug\furniture store_MarkupCompile.lref
+C:\Users\artur\source\repos\furniture store\furniture store\obj\Debug\MainWindow.baml
+C:\Users\artur\source\repos\furniture store\furniture store\obj\Debug\furniture store.g.resources
+C:\Users\artur\source\repos\furniture store\furniture store\obj\Debug\furniture_store.Properties.Resources.resources
+C:\Users\artur\source\repos\furniture store\furniture store\obj\Debug\furniture store.csproj.GenerateResource.cache
+C:\Users\artur\source\repos\furniture store\furniture store\obj\Debug\furniture store.csproj.CoreCompileInputs.cache
+C:\Users\artur\source\repos\furniture store\furniture store\obj\Debug\furniture store.exe
+C:\Users\artur\source\repos\furniture store\furniture store\obj\Debug\furniture store.pdb
+C:\Users\artur\source\repos\furniture store\furniture store\obj\Debug\User\StartUserWindow.g.cs
+C:\Users\artur\source\repos\furniture store\furniture store\obj\Debug\User\StartUserWindow.baml
+C:\Users\artur\source\repos\furniture store\furniture store\obj\Debug\User\СreateUser.g.cs
+C:\Users\artur\source\repos\furniture store\furniture store\obj\Debug\User\СreateUser.baml
+C:\Users\artur\source\repos\furniture store\furniture store\obj\Debug\Main\StartWindow.g.cs
+C:\Users\artur\source\repos\furniture store\furniture store\obj\Debug\Main\StartWindow.baml
+C:\Users\artur\source\repos\furniture store\furniture store\obj\Debug\Admin\AdmFirstWin.g.cs
+C:\Users\artur\source\repos\furniture store\furniture store\obj\Debug\Controls\AdmOutControl.g.cs
+C:\Users\artur\source\repos\furniture store\furniture store\obj\Debug\Admin\AdmFirstWin.baml
+C:\Users\artur\source\repos\furniture store\furniture store\obj\Debug\Controls\AdmOutControl.baml
+C:\Users\artur\source\repos\furniture store\furniture store\obj\Debug\Admin\RegAdm.g.cs
+C:\Users\artur\source\repos\furniture store\furniture store\obj\Debug\Admin\RegAdm.baml
+C:\Users\artur\source\repos\furniture store\furniture store\obj\Debug\Controls\UserControlprim.g.cs
+C:\Users\artur\source\repos\furniture store\furniture store\obj\Debug\Controls\UserControlprim.baml
+C:\Users\artur\source\repos\furniture store\furniture store\obj\Debug\Controls\ShowUsAdm.g.cs
+C:\Users\artur\source\repos\furniture store\furniture store\obj\Debug\Controls\ShowUsAdm.baml
+C:\Users\artur\source\repos\furniture store\furniture store\obj\Debug\Controls\ShowDealAdm.g.cs
+C:\Users\artur\source\repos\furniture store\furniture store\obj\Debug\Controls\ShowDealAdm.baml
+C:\Users\artur\source\repos\furniture store\furniture store\obj\Debug\Func\AddWindow.g.cs
+C:\Users\artur\source\repos\furniture store\furniture store\obj\Debug\Func\AddWindow.baml
+C:\Users\artur\source\repos\furniture store\furniture store\obj\Debug\Func\DelWindow.g.cs
+C:\Users\artur\source\repos\furniture store\furniture store\obj\Debug\Func\DelWindow.baml
+C:\Users\artur\source\repos\furniture store\furniture store\obj\Debug\Controls\StatControl.g.cs
+C:\Users\artur\source\repos\furniture store\furniture store\obj\Debug\Controls\StatControl.baml
+C:\Users\artur\source\repos\furniture store\furniture store\obj\Debug\furniture store.csprojAssemblyReference.cache

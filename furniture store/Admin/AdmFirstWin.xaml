@@ -1,0 +1,65 @@
+﻿<Window x:Class="furniture_store.Admin.AdmFirstWin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:furniture_store.Admin"
+        mc:Ignorable="d"
+        Title="AdmFirstWin" Height="450" Width="800" WindowStartupLocation="CenterScreen">
+    <Grid >
+        <Grid.Background>
+            <ImageBrush ImageSource="/images/font_top.jpg"/>
+        </Grid.Background>
+        <Label  Content="Мебельный магазин «Моя мебель!»" HorizontalAlignment="Left" FontFamily="Bookman Old Style" FontSize="30" Margin="10,10,0,0" VerticalAlignment="Top" Width="527" Background="{x:Null}" Foreground="#FF9C7474"/>
+        <Label x:Name="l11" Content="" HorizontalAlignment="Left" Margin="683,10,0,0" VerticalAlignment="Top" FontFamily="Bookman Old Style" FontSize="30" Foreground="#FF9C7474"/>
+        <Image Margin="632,12,112,358" Source="/images/acc_ic (2).png" Stretch="Fill"/>
+        <Button Content="Товары" HorizontalAlignment="Left" Margin="35,65,0,0" VerticalAlignment="Top" Width="86" Click="Button_Click_1" FontSize="20" BorderBrush="{x:Null}" Background="{x:Null}" FontFamily="Bookman Old Style" Padding="-7,1,1,0" BorderThickness="1,1,1,0">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button Content="Пользователи" HorizontalAlignment="Left" Margin="126,65,0,0" VerticalAlignment="Top" Width="148" Click="Button_Click" FontSize="20" BorderBrush="{x:Null}" Background="{x:Null}" FontFamily="Bookman Old Style" Padding="-7,1,1,0" BorderThickness="1,1,1,0">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <ListBox x:Name="L1" HorizontalAlignment="Left" Height="215" Margin="0,90,0,0" VerticalAlignment="Top" Width="792" Foreground="#FF9C7474"/>
+        <Button x:Name="DealB" Content="Продажи" HorizontalAlignment="Left" Margin="274,65,0,0" VerticalAlignment="Top" Width="115" Click="DealB_Click" FontSize="20" BorderBrush="{x:Null}" Background="{x:Null}" FontFamily="Bookman Old Style" Padding="-7,1,1,0" BorderThickness="1,1,1,0" RenderTransformOrigin="0.061,0.6">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button x:Name="ButDel" Content="Удалить товар" HorizontalAlignment="Left" Margin="594,310,0,0" VerticalAlignment="Top" Width="155" Click="ButDel_Click" FontSize="20" BorderBrush="{x:Null}" Background="{x:Null}" FontFamily="Bookman Old Style" Padding="-7,1,1,0" BorderThickness="1,1,1,0" Visibility="Hidden">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button x:Name="ButAdd" Content="Добавить товар" HorizontalAlignment="Left" Margin="40,310,0,0" VerticalAlignment="Top" Width="158" FontSize="20" BorderBrush="{x:Null}" Background="{x:Null}" FontFamily="Bookman Old Style" Padding="-7,1,1,0" BorderThickness="1,1,1,0" Click="ButAdd_Click" Visibility="Hidden">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button x:Name="ButSear" Content="Поиск" HorizontalAlignment="Left" Margin="221,310,0,0" VerticalAlignment="Top" Width="126" FontSize="20" BorderBrush="{x:Null}" Background="{x:Null}" FontFamily="Bookman Old Style" Padding="-7,1,1,0" BorderThickness="1,1,1,0" Click="ButSear_Click" Visibility="Hidden">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <TextBox x:Name="TSearch"  HorizontalAlignment="Left" Height="23" Margin="352,312,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" FontSize="20" FontFamily="Bookman Old Style" Width="185" Background="{x:Null}" BorderThickness="0,0,0,1" Visibility="Hidden"/>
+        <Button x:Name="Stat" Content="Статистика" HorizontalAlignment="Left" Margin="389,65,0,0" VerticalAlignment="Top" Width="148" Click="Stat_Click" FontSize="20" BorderBrush="{x:Null}" Background="{x:Null}" FontFamily="Bookman Old Style" Padding="-7,1,1,0" BorderThickness="1,1,1,0">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <DatePicker  Name="DPick_Start" HorizontalAlignment="Left" Margin="35,330,0,0" VerticalAlignment="Top" Visibility="Hidden"/>
+        <DatePicker  x:Name="DPick_End" HorizontalAlignment="Left" Margin="232,330,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.26,0.542" Visibility="Hidden"/>
+        <Label x:Name="SL" FontSize="20" FontFamily="Bookman Old Style" Content="Начальная дата" HorizontalAlignment="Left" Margin="0,297,0,0" VerticalAlignment="Top" Visibility="Hidden"  />
+        <Label x:Name="EL"  FontSize="20" FontFamily="Bookman Old Style" Content="Конечная дата" HorizontalAlignment="Left" Margin="203,297,0,0" VerticalAlignment="Top" Visibility="Hidden"/>
+        <Label x:Name="EdL"  FontSize="20" FontFamily="Bookman Old Style" Content="Категория" HorizontalAlignment="Left" Margin="626,297,0,0" VerticalAlignment="Top" Visibility="Hidden"/>
+        <Button x:Name="ButV" FontSize="20" FontFamily="Bookman Old Style" Content="Вывод" HorizontalAlignment="Left" Margin="632,382,0,0" VerticalAlignment="Top" Width="109" Background="{x:Null}" Click="ButV_Click" Visibility="Hidden"/>
+        <TextBox x:Name="CatAdd" FontSize="12" FontFamily="Bookman Old Style" HorizontalAlignment="Left" Height="23" Margin="632,331,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="115" Background="{x:Null}" BorderThickness="0,0,0,1" RenderTransformOrigin="1.991,-2" Visibility="Hidden"/>
+        <Label x:Name="NameS"  FontSize="20" FontFamily="Bookman Old Style" Content="Название" HorizontalAlignment="Left" Margin="430,297,0,0" VerticalAlignment="Top" Visibility="Hidden"/>
+        <Button x:Name="ButVN" FontSize="20" FontFamily="Bookman Old Style" Content="Вывод" HorizontalAlignment="Left" Margin="430,382,0,0" VerticalAlignment="Top" Width="109" Background="{x:Null}" Click="ButVN_Click" Visibility="Hidden"/>
+        <TextBox x:Name="NameAdd" FontSize="12" FontFamily="Bookman Old Style" HorizontalAlignment="Left" Height="23" Margin="422,330,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="115" Background="{x:Null}" BorderThickness="0,0,0,1" Visibility="Hidden"/>
+
+    </Grid>
+</Window>
